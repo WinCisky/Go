@@ -3,7 +3,8 @@
 	Some of my projects developed with Golang  
 	I use this repository to track my growth  
   
-### **colours** Colours  
+### Colours  
+**colours.go**  
 ####	Necessary setup  
     No additional packages required  
 ####	Short Workflow Description  
@@ -11,9 +12,10 @@
 ####	Short Algorithm Description  
     Executes a pixel by pixel scan of the image, uses a hash function to speed up the process  
   
-### **mailsender** GMail Api Integration with Mail Sending Example  
+### GMail Api Integration with Mail Sending Example  
+**mailsender.go**  
 ####	Necessary setup  
-    Follow [this](https://developers.google.com/gmail/api/quickstart/go "GMail Api") Google quickstart to setup your mail  
+    Follow [link to Google!](http://google.com) Google quickstart to setup your mail  
 ####	Short Workflow Description  
 	Uses the specified (sender) account to send a mail to the specified (receiver) account. Needs to be authorized!  
 ####	Short Algorithm Description  
