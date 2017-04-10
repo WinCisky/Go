@@ -1,7 +1,20 @@
 # Go  
-
+  
 	Some of my projects developed with Golang  
-
-### Colours
-	
-	Prende in input da linea di comando un'immagine png/jpeg e, dopo un'analisi pixel per pixel ritorna gli n colori più usati
+	I use this repository to track my growth  
+  
+### **colours** Colours  
+####	Necessary setup  
+    No additional packages required  
+####	Short Workflow Description  
+	Accepts an image as parameter (png or jpeg), and gives back the most frequent colours  
+####	Short Algorithm Description  
+    Executes a pixel by pixel scan of the image, uses a hash function to speed up the process  
+  
+### **mailsender** GMail Api Integration with Mail Sending Example  
+####	Necessary setup  
+    Follow [this](https://developers.google.com/gmail/api/quickstart/go "GMail Api") Google quickstart to setup your mail  
+####	Short Workflow Description  
+	Uses the specified (sender) account to send a mail to the specified (receiver) account. Needs to be authorized!  
+####	Short Algorithm Description  
+    Search for client_secret.json file, request a token to the google mail api and then send the mail  
