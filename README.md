@@ -5,8 +5,9 @@
   
   
   
-* **colours.go**  
-### Colours  
+*colours.go*  
+------
+### Image Scan for the most used colours  
 ####	Necessary setup  
 No additional packages required  
 ####	Short Workflow Description  
@@ -16,7 +17,8 @@ Executes a pixel by pixel scan of the image, uses a hash function to speed up th
   
   
   
-* **mailsender.go**  
+*mailsender.go*  
+------
 ### GMail Api Integration with Mail Sending Example  
 ####	Necessary setup  
 Follow [this](https://developers.google.com/gmail/api/quickstart/go "GMail Api") Google quickstart to setup your mail  
