@@ -15,8 +15,13 @@
 ### GMail Api Integration with Mail Sending Example  
 **mailsender.go**  
 ####	Necessary setup  
-    Follow [link to Google!](http://google.com) Google quickstart to setup your mail  
+    Follow [this] Google quickstart to setup your mail  
 ####	Short Workflow Description  
 	Uses the specified (sender) account to send a mail to the specified (receiver) account. Needs to be authorized!  
 ####	Short Algorithm Description  
     Search for client_secret.json file, request a token to the google mail api and then send the mail  
+    
+    
+    
+    
+[this]: http://google.com
